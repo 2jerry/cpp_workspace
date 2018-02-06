@@ -29,8 +29,42 @@ public:
 
 void Chulsoo::introduce()
 {
-	
+	cout << "ÀÌ¸§ : " << name << endl;
+	cout << "¼ºº° : " << sex << endl;
+	cout << "Á÷¾÷ : " << job << endl;
+	cout << "¼º°Ý : " << character << endl;
+	cout << "³ªÀÌ : " << age << endl;
+	cout << "°áÈ¥¿©ºÎ : " << (marriageStatus ? "YES" : "NO") << endl;
 }
+
+void Chulsoo::eat(char *food)
+{
+	cout << "Ã¶¼ö´Â " << food << "¸¦ ¸Ô´Â´Ù" << endl;
+}
+
+void Chulsoo::sleep()
+{
+	cout << "Ã¶¼ö´Â ÀÜ´Ù." << endl;
+}
+
+void Chulsoo::read()
+{
+
+}
+
+void Chulsoo::constructor(char *name, char *sex, char *job, char *character,
+	int age, bool marriageStatus)
+{
+	strcpy(this->name, name);
+	strcpy(this->sex, sex);
+	strcpy(this->job, job);
+	strcpy(this->character, character);
+	this->age;
+	this->marriageStatus = marriageStatus;
+
+}
+
+
 
 int main()
 {
