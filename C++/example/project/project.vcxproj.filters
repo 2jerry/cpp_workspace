@@ -11,7 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\13장\smartPointer4.cpp">
+    <ClCompile Include="..\src\14장\stdexceptioninherit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
